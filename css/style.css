@@ -35,8 +35,12 @@ img {
     'footer footer footer';
 }
 
+/* header */
+
 .header {
   grid-area: header;
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+  padding: 30px;
 }
 
 .sidenav {
