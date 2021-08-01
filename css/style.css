@@ -50,6 +50,28 @@ img {
   max-width: 200px;
 }
 
+.header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header nav a {
+  display: block;
+  padding: 10px;
+  color: white;
+  font-size: 1.125em;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  transition: 0.1s;
+}
+
+.header li + li {
+  margin-left: 30px;
+}
+
+.header nav a:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
 .sidenav {
   grid-area: sidenav;
 }
