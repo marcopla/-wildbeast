@@ -122,6 +122,28 @@ img {
 .imagem-2 {
   align-self: end;
 }
+
+/* estilos content */
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  letter-spacing: -0.005em;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.informacoes p + p {
+  margin-top: 30px;
+}
+
+/* titulo */
+.titulo {
+  color: #b07dfb;
+}
+
+.titulo h1 {
+  font-size: 3.75em;
+}
+
 /* anuncios */
 .anuncios {
   grid-area: anuncios;
