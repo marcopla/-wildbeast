@@ -201,6 +201,16 @@ p {
   padding: 30px;
   border-radius: 5px;
   box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+}
+
+.citacao p {
+  font-size: 1.5em;
+  font-style: italic;
+  text-align: center;
+  color: white;
+  max-width: 500px;
+  margin: 0 auto;
 }
 /* anuncios */
 .anuncios {
