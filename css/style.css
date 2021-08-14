@@ -42,7 +42,7 @@ img {
     grid-template-areas: 'header header ' 'sidenav content ' 'sidenav anuncios' 'footer footer ';
   }
 }
-
+/* testing */
 /* header */
 
 .header {
