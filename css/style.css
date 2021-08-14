@@ -37,6 +37,12 @@ img {
     'footer footer footer';
 }
 
+@media (max-width: 1200px) {
+  .estrutura {
+    grid-template-areas: 'header header ' 'sidenav content ' 'sidenav anuncios' 'footer footer ';
+  }
+}
+/* testing */
 /* header */
 
 .header {
