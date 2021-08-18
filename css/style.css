@@ -131,6 +131,23 @@ img {
   background: #b07dfb;
 }
 
+@media (max-width: 760px) {
+  .sidenav {
+    overflow-x: auto;
+  }
+  .sidenav ul {
+    display: flex;
+  }
+  .sidenav li {
+    flex: 1 0 60px;
+  }
+  .sidenav {
+    padding: 0 30px;
+  }
+  .sidenav li a {
+    margin: 30px 30px 30px 0;
+  }
+}
 /* content */
 .content {
   grid-area: content;
