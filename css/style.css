@@ -135,6 +135,11 @@ img {
   .sidenav {
     overflow-x: auto;
   }
+  .sidenav::after {
+    content: '=>';
+    position: absolute;
+    top: 5px;
+  }
   .sidenav ul {
     display: flex;
   }
